@@ -1,0 +1,33 @@
+[
+    {
+        "id": "1",
+        "title": "Development",
+        "imgSrc": "https://t4.ftcdn.net/jpg/03/14/92/75/360_F_314927575_yqFMAuXFTNC6gBflR2njRZ4bQb8dAb7y.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Websites",
+        "imgSrc": "https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Applications",
+        "imgSrc": "https://img.freepik.com/premium-photo/it-industry-modern-technologies-man-presses-screen_438099-7030.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Responosive",
+        "imgSrc": "https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041867.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Technologies",
+        "imgSrc": "https://t3.ftcdn.net/jpg/03/18/14/08/360_F_318140882_seYmbowNlJMFQqoBGxULHUiIVB92uz0c.jpg"
+    },
+    {
+        "id": "6",
+        "title": "Development",
+        "imgSrc": "https://c8.alamy.com/comp/2C45WE9/internet-big-data-and-information-technology-concept-2C45WE9.jpg"
+    }
+]
+
