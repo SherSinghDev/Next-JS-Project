@@ -1,5 +1,5 @@
 import React from 'react'
-import data from "@/app/data/data.json"
+import data from "../data/data.json"
 import Card from './Card';
 
 
@@ -10,7 +10,7 @@ function CardContainer() {
             <div className='flex flex-wrap gap-y-6 mt-[60px]'>
                 {data.map((card) => {
                     return (
-                        <Card card={card} />
+                        <Card card={card} key={card.id} />
                     )
                 })}
             </div>

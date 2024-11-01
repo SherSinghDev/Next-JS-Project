@@ -1,7 +1,21 @@
+"use client"
+// import { useSession } from 'next-auth/react';
 import Image from 'next/image'
-import React from 'react'
+// import { redirect } from 'next/navigation';
+import { useEffect } from 'react';
 
 function HeroSection({ title, btnText, imgSrc }) {
+    // let { data: session } = useSession()
+    // let count = 0;
+    // useEffect(()=>{
+    //     if(!session && count==2){
+    //         // console.log(session);
+    //         redirect("/api/auth/signin")
+    //     }
+    //     count++
+    // },[session])
+    // fetch("")
+
     return (
         <>
             <section className=' flex items-center mt-[120px]'>
@@ -10,7 +24,7 @@ function HeroSection({ title, btnText, imgSrc }) {
                     <p className='text-xl py-4'>This is our paragraph</p>
                     <button className='btn btn-red'>{btnText}</button>
                 </div>
-                <Image src={imgSrc} width={500} alt='next image' height={500} style={{height:"auto"}} />
+                <Image priority src={imgSrc} width={500} alt='next image' height={500} style={{ height: "auto", width: "500px" }} />
             </section>
         </>
     )

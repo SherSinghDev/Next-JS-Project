@@ -3,7 +3,8 @@ const nextConfig = {
     images:{
         unoptimized:true,
         // path:
-    }
+    },
+    // trailingSlash: false
 };
 
 export default nextConfig;
